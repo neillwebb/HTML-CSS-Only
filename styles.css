@@ -1,6 +1,12 @@
+body, ul, li, h1, h2, a{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
 header{
     background-color: #91AEBC;
-    padding: 0px;
+    padding: 20px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -41,3 +47,32 @@ header h1{
 .banner h2 span{
     font-size: 1.3em;
 }
+
+nav{
+    background-color: #f4f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 108px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+nav li a.join{
+    color: #91AEBC;
+}
+
