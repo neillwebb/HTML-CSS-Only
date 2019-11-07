@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'totaleclipse';
+    src:url("fonts/totaleclipse.TTF");
+}
+
 body, ul, li, h1, h2, a{
     margin: 0px;
     padding: 0px;
-    font-family: Arial;
+    font-family: 'totaleclipse';
 }
 
 header{
