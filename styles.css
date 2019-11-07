@@ -76,3 +76,39 @@ nav li a.join{
     color: #91AEBC;
 }
 
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: #91AEBC;
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0px;
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+    padding: 20px;
+    border: 3px solid #91AEBC;
+    border-radius: 18%;
+}
+
+.images li img{
+    max-width: 100%;
+}
