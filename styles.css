@@ -1,9 +1,25 @@
 header{
-  
+    background-color: #91AEBC;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
 }
 
-.banner{
+header h1{
+    color: white;
+    border: 10px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.banner{    
     position: relative;
+    margin-top: 20px;
 }
 
 .banner img{
@@ -11,16 +27,15 @@ header{
 }
 
 .banner .welcome{
-    background-color: lightblue;
-    color: slategray;
+    color: #91AEBC;
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 30%;
     padding: 30px;
 }
 
 .banner h2{
-    font-size: 50px;
+    font-size: 74px;
 }
 
 .banner h2 span{
