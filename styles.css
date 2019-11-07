@@ -17,7 +17,7 @@ header{
 
 header h1{
     color: white;
-    border: 10px solid white;
+    border: 6px solid white;
     padding: 6px 12px;
     display: inline-block;
     border-radius: 25px;
@@ -33,7 +33,7 @@ header h1{
 }
 
 .banner .welcome{
-    color: #91AEBC;
+    color: #140a13;
     position: absolute;
     left: 0;
     top: 30%;
@@ -104,11 +104,37 @@ article p{
     display: inline-block;
     width: 40%;
     margin: 20px 5%;
-    padding: 20px;
     border: 3px solid #91AEBC;
-    border-radius: 18%;
+    border-radius: 5%;
 }
 
 .images li img{
     max-width: 100%;
 }
+
+section.join{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+
+.join h2{
+    font-size: 36px;
+}
+
+form input{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 3px solid white;
+}
+
+footer{
+    background: #91AEBC;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
